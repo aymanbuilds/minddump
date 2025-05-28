@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+:root {
+    --gray: #363636;
+    --gray-2: #565656;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: "Aldrich", sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    font-family: "Aldrich", sans-serif;
+}
+
+h3 {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.g5 {
+    gap: 5px;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logo-container {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.main-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.main-header nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    color: var(--gray-2);
+    font-size: 0.9rem;
+}
+
+.page-cover {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    padding: 0 40px;
+}
+
+.page-cover .cover-content {
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.page-cover .cover-content h1,
+.page-cover .cover-content p{
+    max-width: 600px;
+}

@@ -1,0 +1,5 @@
+#default-cover {
+    background-image: url('../images/blog/minddump-blog-cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
